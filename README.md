@@ -25,3 +25,42 @@ Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To u
 ## Further help
 
 To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+
+# Conteúdo curso
+
+## Aula 1
+
+## Aula 2
+Criando formulário
+Property Binding -> [value]="pensamento.conteudo"
+<input
+    type="textarea"
+    class="input"
+    id="pensamento"
+    name="pensamento"
+    placeholder="Digite o pensamento"
+    [value]="pensamento.conteudo"
+>
+O property binding funciona no mesmo sentido da interpolação, unidirecional, vindo a informação do componente para o template. É representado pelo uso de colchetes em atributos de elementos HTML.
+
+Property Binding -> {{ pensamento.conteudo }} -> interpolação
+<div class="modelo modelo1 ff-roboto-mono">
+    <img src="../../../../assets/imagens/modelo1.png" alt="Aspas azuis">
+    <p class="conteudo">{{ pensamento.conteudo }}</p>
+    <p class="autoria"><b>{{ pensamento.autoria }}</b></p>
+</div>
+A interpolação permite a visualização do valor de uma propriedade do componente no template com o uso de chaves duplas. 
+{{ nome-da-propriedade }}.
+
+Associando com Event Binding -> (click)="criarPensamento()"
+<button (click)="criarPensamento()" class="botao">Salvar</button>
+
+Two-way Data Binding (via de mão dupla) -> [(ngModel)]="pensamento.modelo" importar formsModule
+<input
+    type="radio"
+    id="modelo3"
+    value="modelo3"
+    name="modelo-card"
+    [(ngModel)]="pensamento.modelo"
+>
+Este binding combina o recurso do property binding e o event binding em uma única notação usando a diretiva ngModel.[(ngModel)]=”nome-da-propriedade”.
