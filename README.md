@@ -27,30 +27,48 @@ Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To u
 To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
 
 # Conteúdo curso
+criação de componentes ->  ng g c <caminho onde será criado o componente>/<nome componente>
+iniciar servidor -> ng serve 
 
 ## Aula 1
 
+### O que aprendemos?<br/>
+Instalar e utilizar o Angular CLI;<br/>
+Criar uma aplicação Angular;<br/>
+Estrutura da aplicação gerada pelo Angular CLI;<br/>
+Criar e utilizar um componente Angular;<br/>
+Inserimos a fonte, as cores e estilos.<br/>
+
 ## Aula 2
-Criando formulário
-Property Binding -> [value]="pensamento.conteudo"
+
+### O que aprendemos?<br/>
+Criar componente de formulário para adicionar novos pensamentos;<br/>
+Passar valores de uma propriedade do component para atributos de tag dentro do template com o uso de property binding;<br/>
+Mostrar valores de propriedades do component no template por meio da interpolação;<br/>
+Escutar eventos do template e fazer a chamada de métodos no component com o event binding;<br/>
+Usar a diretiva ngModel que pertence ao FormsModule para a comunicação bidirecional entre component e template;<br/>
+Como funcionam os diferentes tipos de comunicação entre component e template.<br/>
+
+Criando formulário<br/>
+Property Binding -> [value]="pensamento.conteudo"<br/>
 <input
     type="textarea"
     class="input"
     id="pensamento"
     name="pensamento"
     placeholder="Digite o pensamento"
-    [value]="pensamento.conteudo"
->
+    [value]="pensamento.conteudo"><br/>
+
 O property binding funciona no mesmo sentido da interpolação, unidirecional, vindo a informação do componente para o template. É representado pelo uso de colchetes em atributos de elementos HTML.
 
-Property Binding -> {{ pensamento.conteudo }} -> interpolação
+Property Binding -> {{ pensamento.conteudo }} -> interpolação<br/>
 <div class="modelo modelo1 ff-roboto-mono">
     <img src="../../../../assets/imagens/modelo1.png" alt="Aspas azuis">
     <p class="conteudo">{{ pensamento.conteudo }}</p>
     <p class="autoria"><b>{{ pensamento.autoria }}</b></p>
 </div>
 A interpolação permite a visualização do valor de uma propriedade do componente no template com o uso de chaves duplas. 
-{{ nome-da-propriedade }}.
+{{ nome-da-propriedade }}.<br/><br/>
 
 Associando com Event Binding -> (click)="criarPensamento()"
 <button (click)="criarPensamento()" class="botao">Salvar</button>
@@ -64,3 +82,11 @@ Two-way Data Binding (via de mão dupla) -> [(ngModel)]="pensamento.modelo" impo
     [(ngModel)]="pensamento.modelo"
 >
 Este binding combina o recurso do property binding e o event binding em uma única notação usando a diretiva ngModel.[(ngModel)]=”nome-da-propriedade”.
+
+## Aula 3
+
+### O que aprendemos?<br/>
+Utilizar o RouterModule;<br/>
+Utilizar a diretiva <router-outlet>;<br/>
+Criar e configurar rotas;<br/>
+Navegar por meio da propriedade routerLink.<br/>
