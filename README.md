@@ -90,3 +90,20 @@ Utilizar o RouterModule;<br/>
 Utilizar a diretiva <router-outlet>;<br/>
 Criar e configurar rotas;<br/>
 Navegar por meio da propriedade routerLink.<br/>
+
+## Aula 4
+
+### O que aprendemos?<br/>
+Tipos diferentes de diretivas;<br/>
+Utilizar diretivas estruturais incluindo e excluindo elementos com ngFor e ngIf;<br/>
+Utilizar expressões para estilizar elementos com ngClass.<br/>
+
+### Para saber mais: tipos de diretivas
+Diretivas de componentes: usado com um modelo. Esse tipo de diretiva é a mais comum.<br/>
+Ex: <app-listarPensamentos>.
+
+Diretivas estruturais: altera o layout do DOM adicionando e removendo elementos DOM.<br/>
+Ex: NgIf, NgFor. NgSwitch.
+
+Diretivas de atributos: altera a aparência ou o comportamento de um elemento, componente ou outra diretiva.<br/>
+Ex: NgClass, NgStyle.
