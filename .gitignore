@@ -8,6 +8,7 @@
 
 # Node
 /node_modules
+**node_modules
 npm-debug.log
 yarn-error.log
 
@@ -26,11 +27,11 @@ yarn-error.log
 !.vscode/tasks.json
 !.vscode/launch.json
 !.vscode/extensions.json
+!.vscode/*.code-snippets
 .history/*
 
 # Miscellaneous
-/.angular
-/.angular/cache
+/.angular/cache/
 .sass-cache/
 /connect.lock
 /coverage

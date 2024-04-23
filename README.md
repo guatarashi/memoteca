@@ -107,3 +107,14 @@ Ex: NgIf, NgFor. NgSwitch.
 
 Diretivas de atributos: altera a aparência ou o comportamento de um elemento, componente ou outra diretiva.<br/>
 Ex: NgClass, NgStyle.
+
+## Aula 5
+
+comando -> "npm init -y" -> Esse comando cria o arquivo package json dentro da pasta backend
+após isso instalar o json server comando -> npm i json-server
+agora cria o arquivo db.json
+após inserir os dados de teste no arquivo db.json, é hora de ir para o arquivo package.json
+no arquivo package.json na tag scritps mude "test" para "start" e insera a seguinte informação -> "json-server --watch db.json --port 3000"
+para iniciar o servidor json, execute o comando -> "npm start" dentro da pasta "backend"
+interface(seria um bean no java) -> a interface serve para tipar a variavel, e o export é usado para que outras classes possam usar.
+comando para criar service -> ng g s componentes/pensamentos/pensamento
