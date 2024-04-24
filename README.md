@@ -118,3 +118,9 @@ no arquivo package.json na tag scritps mude "test" para "start" e insera a segui
 para iniciar o servidor json, execute o comando -> "npm start" dentro da pasta "backend"
 interface(seria um bean no java) -> a interface serve para tipar a variavel, e o export é usado para que outras classes possam usar.
 comando para criar service -> ng g s componentes/pensamentos/pensamento
+
+### O que aprendemos?<br/>
+Utilizar o JSON-Server simulando uma API REST;<br/>
+Criar uma interface para definir tipos personalizados;<br/>
+Entender a importância do Service e o novo decorator @Injectable();<br/>
+Injetar dependências.<br/>
