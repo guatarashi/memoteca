@@ -124,3 +124,23 @@ Utilizar o JSON-Server simulando uma API REST;<br/>
 Criar uma interface para definir tipos personalizados;<br/>
 Entender a importância do Service e o novo decorator @Injectable();<br/>
 Injetar dependências.<br/>
+
+## Aula 6
+
+Para verificar a versão atual do json-server instalada em seu sistema, você pode usar o seguinte comando no terminal:
+json-server --version
+
+Tendo confirmado que está com uma versão diferente; siga os passos abaixo para desinstalar a versão atual do json-server e instalar a versão 0.17.4:
+
+Desinstalar a versão atual do json-server:
+Abra o terminal e execute o seguinte comando:
+npm uninstall -g json-server
+
+Agora, você pode instalar uma versão específica usando o seguinte comando:
+npm install -g json-server@0.17.4
+
+### O que aprendemos?<br/>
+Utilizar métodos de requisição HTTP com serviço HttpClient;<br/>
+Utilizar o Observable no retorno dos métodos HTTP;<br/>
+Capturar parâmetros em rotas;<br/>
+Criar um CRUD.<br/>
