@@ -155,3 +155,19 @@ Criar um formulário reativo através da classe FormBuilder;<br/>
 Associar o formulário criado no component ao template através da diretiva formGroup;<br/>
 Utilizar a diretiva formControlName para associar os inputs do formulário;<br/>
 Acessar os valores dos campos do formulário no template com o método get.<br/>
+
+## Aula 2
+
+### Expressões regulares
+[Curso sobre expressões regulares](https://cursos.alura.com.br/course/expressoes-regulares)<br/>
+[artigo sobre manipulação de strings e regex.](https://www.alura.com.br/artigos/javascript-replace-manipulando-strings-e-regex?_gl=1*sevuat*_ga*MTgyNzg2MzA3MC4xNjgzODk5ODI0*_ga_1EPWSW3PCS*MTcxNDc0MDg3NC4yMzguMS4xNzE0NzQyNTMxLjAuMC4w*_fplc*WUJCd0hJVUhjMjFRQUolMkJBVmUxTXY5U0wlMkJ1MDlGWW9aU3FjZ1RJUDYwNW5Rc0p4RDV2UXdZSmxiJTJGMzdRcWFHa2k1UXd6RVlGbGhVUnh0YlFrUE95eHZscTVneE4lMkJ3Q2FQaUpFNkNiQ1Q2TkhiNGltMG85QjMyUzN1aG44S0ElM0QlM0Q.)<br/>
+[documentação angular validators](https://angular.dev/api/forms/Validators)<br/>
+[validação de formulários reativos no Angular](https://www.alura.com.br/artigos/como-aplicar-validacao-formularios-reativos-angular?_gl=1*ktai3e*_ga*MTgyNzg2MzA3MC4xNjgzODk5ODI0*_ga_1EPWSW3PCS*MTcxNDc0ODYzMS4yMzkuMS4xNzE0NzUwODU5LjAuMC4w*_fplc*WUJCd0hJVUhjMjFRQUolMkJBVmUxTXY5U0wlMkJ1MDlGWW9aU3FjZ1RJUDYwNW5Rc0p4RDV2UXdZSmxiJTJGMzdRcWFHa2k1UXd6RVlGbGhVUnh0YlFrUE95eHZscTVneE4lMkJ3Q2FQaUpFNkNiQ1Q2TkhiNGltMG85QjMyUzN1aG44S0ElM0QlM0Q.)
+
+### O que aprendemos?<br/>
+
+Implementar validações nos campos do formulário através da classe Validators;<br/>
+Identificar os tipos de erros que ocorreram nas validações;<br/>
+Exibir mensagens de erro customizadas;<br/>
+Mostrar mensagens de erro apenas quando o campo for acessado;<br/>
+Habilitar/desabilitar o botão de salvar de acordo com o status do formulário.<br/>
