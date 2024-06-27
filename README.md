@@ -171,3 +171,14 @@ Identificar os tipos de erros que ocorreram nas validações;<br/>
 Exibir mensagens de erro customizadas;<br/>
 Mostrar mensagens de erro apenas quando o campo for acessado;<br/>
 Habilitar/desabilitar o botão de salvar de acordo com o status do formulário.<br/>
+
+## Aula 3
+
+[documentação do Angular HttpParams](https://angular.dev/api/common/http/HttpParams)
+
+### O que aprendemos?<br/>
+
+Utilizar o HttpParams para enviar parâmetros na url;<br/>
+Implementar paginação dos dados;<br/>
+Criar um componente botão para carregar os pensamentos sob demanda;<br/>
+Realizar a comunicação entre componentes.<br/>
