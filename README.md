@@ -182,3 +182,12 @@ Utilizar o HttpParams para enviar parâmetros na url;<br/>
 Implementar paginação dos dados;<br/>
 Criar um componente botão para carregar os pensamentos sob demanda;<br/>
 Realizar a comunicação entre componentes.<br/>
+
+## Aula 4
+
+[repositório do JSON-Server](https://github.com/typicode/json-server#)
+
+### O que aprendemos?<br/>
+Criar um campo de busca;
+Implementar a funcionalidade de filtrar pensamentos;
+Mostrar pensamentos filtrados dinamicamente à medida que o filtro é digitado.
