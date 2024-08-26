@@ -177,7 +177,6 @@ Habilitar/desabilitar o botão de salvar de acordo com o status do formulário.<
 [documentação do Angular HttpParams](https://angular.dev/api/common/http/HttpParams)
 
 ### O que aprendemos?<br/>
-
 Utilizar o HttpParams para enviar parâmetros na url;<br/>
 Implementar paginação dos dados;<br/>
 Criar um componente botão para carregar os pensamentos sob demanda;<br/>
@@ -191,3 +190,10 @@ Realizar a comunicação entre componentes.<br/>
 Criar um campo de busca;
 Implementar a funcionalidade de filtrar pensamentos;
 Mostrar pensamentos filtrados dinamicamente à medida que o filtro é digitado.
+
+## Aula 5
+
+### O que aprendemos?<br/>
+Renderizar condicionalmente o ícone de favorito;
+Utilizar chamadas de métodos dentro da interpolação;
+Implementar a funcionalidade de ‘favoritar’ um pensamento.

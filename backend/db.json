@@ -4,37 +4,43 @@
       "id": 1,
       "conteudo": "Que bom que você veio",
       "autoria": "Carlos",
-      "modelo": "modelo1"
+      "modelo": "modelo1",
+      "favorito": true
     },
     {
       "id": 2,
       "conteudo": "Estudando Angluar",
       "autoria": "Gustavo",
-      "modelo": "modelo2"
+      "modelo": "modelo2",
+      "favorito": false
     },
     {
       "id": 3,
       "conteudo": "Angular é o melhor",
       "autoria": "Atarashi",
-      "modelo": "modelo3"
+      "modelo": "modelo3",
+      "favorito": false
     },
     {
       "conteudo": "teste http post teste2",
       "autoria": " httpservice teste12",
       "modelo": "modelo2",
+      "favorito": false,
       "id": 4
     },
     {
       "id": 5,
       "conteudo": "Que a força esteja com vc!",
       "autoria": "Mestre Fioda",
-      "modelo": "modelo2"
+      "modelo": "modelo2",
+      "favorito": false
     },
     {
       "id": 6,
       "conteudo": "teste",
       "autoria": "aa1",
-      "modelo": "modelo3"
+      "modelo": "modelo3",
+      "favorito": false
     }
   ]
 }
