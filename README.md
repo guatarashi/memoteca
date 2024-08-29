@@ -197,3 +197,10 @@ Mostrar pensamentos filtrados dinamicamente à medida que o filtro é digitado.
 Renderizar condicionalmente o ícone de favorito;
 Utilizar chamadas de métodos dentro da interpolação;
 Implementar a funcionalidade de ‘favoritar’ um pensamento.
+
+## Aula 6
+
+### O que aprendemos?<br/>
+Compartilhar informações entre componentes;
+Recarregar um componente sem precisar recarregar a página;[router angular](https://v17.angular.io/api/router/Router#onSameUrlNavigation)
+Ajustar o título da página de acordo com o conteúdo acessado.

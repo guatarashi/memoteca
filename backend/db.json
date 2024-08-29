@@ -5,14 +5,14 @@
       "conteudo": "Que bom que você veio",
       "autoria": "Carlos",
       "modelo": "modelo1",
-      "favorito": true
+      "favorito": false
     },
     {
       "id": 2,
       "conteudo": "Estudando Angluar",
       "autoria": "Gustavo",
       "modelo": "modelo2",
-      "favorito": false
+      "favorito": true
     },
     {
       "id": 3,
